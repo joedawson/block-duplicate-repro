@@ -1,0 +1,3 @@
+{
+  "buildCommand": "npm run payload migrate && next build"
+}

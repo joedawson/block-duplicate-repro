@@ -1,0 +1,35 @@
+{
+  "name": "block-duplicate-repro",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "payload": "cross-env PAYLOAD_CONFIG_PATH=payload.config.ts payload"
+  },
+  "dependencies": {
+    "@payloadcms/db-postgres": "3.0.0-beta.36",
+    "@payloadcms/next": "3.0.0-beta.36",
+    "@payloadcms/plugin-seo": "3.0.0-beta.36",
+    "@payloadcms/richtext-lexical": "3.0.0-beta.36",
+    "@payloadcms/storage-s3": "3.0.0-beta.36",
+    "cross-env": "^7.0.3",
+    "next": "15.0.0-rc.0",
+    "payload": "3.0.0-beta.36",
+    "react": "19.0.0-rc-f994737d14-20240522",
+    "react-dom": "19.0.0-rc-f994737d14-20240522",
+    "sharp": "^0.33.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "@types/react": "npm:types-react@19.0.0-beta.2",
+    "@types/react-dom": "npm:types-react@19.0.0-beta.2",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "14.2.3",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5.4.5"
+  }
+}
